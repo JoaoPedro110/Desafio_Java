@@ -1,44 +1,9 @@
-// Personagens
-let maça = "url('img/Maca_fuji2.png')";
-let kiwis = "url('img/Kiwi.png')";
-let melancias = "url(img/Melancia.png)";
+let Fruta
 
-// Atribui imagens para escolha do personage
-let maçã = document.getElementById('maçã');
-let Kiwi = document.getElementById('kiwi');
-let melancia = document.getElementById('melancia');
+Fruta = prompt("Qual Fruta você deseja?")
 
-//Background dos Poke
-maçã.style.backgroundImage = maça;
-Kiwi.style.backgroundImage = kiwis;
-melancia.style.backgroundImage = melancias;
-
-
-function clickMaçã(){
-
-    if (Fruta == '') {
-        Fruta = maçã;
-    }
-}
-
-function clickKiwi(){
-
-    if (Fruta == '') {
-        Fruta = Kiwi;
-    }
-
-}
-
-function clickMelancia(){
-
-    if (Fruta == '') {
-        Fruta = melancia;
-    }
-
-}
-
-switch(Fruta) {
-    case "maçã":
+switch(Fruta.toLowerCase()) {
+    case "maça":
         alert("Não vendemos esta fruta aqui")
         break;
     
