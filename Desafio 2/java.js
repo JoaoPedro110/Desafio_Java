@@ -1,6 +1,6 @@
 let Nota
 
-Nota = prompt("Qual Foi Sua Nota?")
+Nota = prompt("Qual Foi Sua Nota em Estilo Americano?")
 
 switch(Nota.toUpperCase()){
     case"A":
