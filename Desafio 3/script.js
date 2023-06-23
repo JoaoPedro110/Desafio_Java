@@ -1,8 +1,8 @@
-let contador
-contador = prompt('Escreva um número inteiro e positivo')
+let contador = 0;
+let numero = prompt('Escreva um número inteiro e positivo')
 
-while (contador <= 35) {
-    let resultado = contador;
-    console.log(resultado);
+
+while (contador < numero) {
     contador++;
+    console.log(contador);
 }
