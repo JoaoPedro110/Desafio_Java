@@ -1,0 +1,16 @@
+body{
+    background-image: url(../Imagens/BackGround.jpg);
+    color: white;
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    border: none;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    line-height: 40px;
+    width: 420px;
+    margin-top: 25px;
+}

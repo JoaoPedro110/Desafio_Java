@@ -1,12 +1,21 @@
 
 body{
-    background-color: rgba(21, 197, 15, 0.735);
+    background-image: url(Imagens/BackGround.jpg);
     margin: 4rem;
     margin-top: 0px;
     text-align: center;
-    font-family: verdana;
     color: white;
-
+    display: flex;
+    border: none;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    line-height: 40px;
+    width: 420px;
+    margin-top: 25px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .blue{
@@ -15,14 +24,14 @@ body{
     text-decoration: none;
 }
 
-.goldenrod{
-    background-color: goldenrod;
+.red{
+    background-color: rgb(255, 0, 0);
     color: white;
     text-decoration: none;
 }
 
 .purple{
-    background-color: purple;
+    background-color: rgb(92, 0, 92);
     color: white;
     text-decoration: double;
 }
@@ -38,7 +47,7 @@ body{
     text-decoration: none;
 }
 .a{
-    margin-top: 1rem;
+    margin-top: 10rem;
     height: 1.rem;
     width: 100%;
     border-radius: 5%;
@@ -47,10 +56,6 @@ body{
     
 }
 /* texto e interatividade*/
-h1{
-    font-size: 3rem;
-    font-family: verdana;
-}
 
 a{
     color: yellow;
@@ -66,12 +71,11 @@ a:hover{
     display: flex;
     flex-direction: column;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: white;
     width: auto;
     height: auto;
     border-radius: 5px;
-    padding: .5rem;
     margin-left: 1rem;
     margin-top: 2rem;
 }
@@ -79,16 +83,8 @@ a:hover{
 
 #borda {
     border: solid white 1px;
-}
-/*Cabeçario*/
-.cabeçario {
-    color: white;
-    text-decoration: none;
-    font-size: 1.5rem;
-    width: auto;
-    height: auto;
-    border-radius: 5px;
-    padding: .5rem;
-    margin-left: 1rem;
-    margin-top: 2rem;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
 }
